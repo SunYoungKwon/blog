@@ -1,0 +1,20 @@
+{
+  "name": "@blog/server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "line0",
+  "dependencies": {
+    "fastify": "^4.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "tsx": "^3.12.7"
+  }
+}
